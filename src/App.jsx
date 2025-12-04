@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <div className="h-0 w-160 absolute top-[20%] right-[-5%] shadow-[0_0_900px_20px_#e99b63] -rotate-30 -z-10"></div>
 
       <Navbar />
+      <Hero />
     </main>
   )
 }
