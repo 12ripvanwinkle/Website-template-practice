@@ -6,7 +6,7 @@ const Hero = () => {
 
     <main className="flex lg:mt-20 flex-col lg:flex-row item-center justify-between min-h-[calc(90vh-6rem)]">
 
-        <div className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
             {/* Tag box with gradient border */}
             <div className="relative w-[95%] sm:w-48 h-10 bg-linear-to-r from-[#656565] to-[#e99b63] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full">
                 <div className="absolute inset-[3px] bg-black rounded-full flex items-center justify-center gap-1">
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
 
         {/* 3D model */}
-        <Spline scene="https://prod.spline.design/MTkTDi8nt2yLZaW5/scene.splinecode" className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:lfet-[-2%] h-full' />
+        <Spline data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="3000" scene="https://prod.spline.design/MTkTDi8nt2yLZaW5/scene.splinecode" className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:lfet-[-2%] h-full' />
 
     </main>
   )

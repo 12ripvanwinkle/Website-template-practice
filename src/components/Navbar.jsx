@@ -17,22 +17,22 @@ const Navbar = () => {
   return (
     <header className="flex justify-between items-center py-4 px-4 lg:px-20">
 
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-light m-0">
+        <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className="text-3xl md:text-4xl lg:text-5xl font-light m-0">
             Hello World
         </h1>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-12">
-            <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
+            <a data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
                 Company
             </a>
-            <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
+            <a data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
                 Features
             </a>
-            <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
+            <a data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
                 Resources
             </a>
-            <a href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
+            <a data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500" href="#" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50">
                 Docs
             </a>
         </nav>
